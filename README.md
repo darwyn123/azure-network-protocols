@@ -37,13 +37,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Create 2 Microsoft Virtual Machine's <a href="https://github.com/darwyn123/azure-vm">(example guide)</a></h2>
 
 - Azure Virtual Machine 1:
-- Resource Group: New one you created ()
-- Virtual Machine Name: "DC-1" running Windows Server 2025 Datacenter Azure Edition - x64 Gen2
-- Virtual Network: New one you created ()
+   - Resource Group: New one you created ()
+   - Virtual Machine Name: "DC-1" running Windows Server 2025 Datacenter Azure Edition - x64 Gen2
+   - Virtual Network: New one you created ()
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+- Azure Virtual Machine 2:
+   - Resource Group: New one you created ()
+   - Virtual Machine Name: "Client-1" running Windows 10 Pro, version 22H2 - x64 Gen2
+   - Virtual Network: New one you created ()
 
 <br />
 
