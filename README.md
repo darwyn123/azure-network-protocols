@@ -21,7 +21,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Actions and Observations</h2>
 
-<h1>Create 2 Virtual Machines</h1>
+<h2>Create 2 Virtual Machines</h2>
 
 - 
 
@@ -31,7 +31,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <br />
 
-<h1>Install Wireshark</h1>
+<h2>Install Wireshark</h2>
 
 - RDP to Windows 10 Virtual Machine
 
@@ -41,7 +41,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <br />
 
-<h1>Observe ICMP Traffic</h1>
+<h2>Observe ICMP Traffic</h2>
 
 - 
 
@@ -51,7 +51,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <br />
 
-<h1>Configuring a Firewall (Network Security Group)</h1>
+<h2>Configuring a Firewall (Network Security Group)</h2>
 
 - 
 
@@ -61,7 +61,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <br />
 
-<h1>Observe SSH Traffic</h1>
+<h2>Observe SSH Traffic</h2>
 
 - 
 
@@ -71,7 +71,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <br />
 
-<h1>Observe DHCP Traffic</h1>
+<h2>Observe DHCP Traffic</h2>
 
 - 
 
@@ -81,7 +81,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <br />
 
-<h1>Observe DNS Traffic</h1>
+<h2>Observe DNS Traffic</h2>
 
 - 
 
@@ -91,7 +91,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <br />
 
-<h1>Observe RDP Traffic</h1>
+<h2>Observe RDP Traffic</h2>
 
 - 
 
