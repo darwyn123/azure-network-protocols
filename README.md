@@ -25,7 +25,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Create a Resource Group</h2>
 
-- 
+- Head over to the Azure Portal and sign in (create an account and start a subscription if needed).
+- Now head over to the Resource Group section (in the search bar type "Resource Group") than click "Create".
+- Resource Group name: "Active-Directory-RG"
+- Click Review + create -> Create
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
