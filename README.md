@@ -21,14 +21,25 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Actions and Observations</h2>
 
-<h2>Create 2 Microsoft Virtual Machine's <a href="https://github.com/darwyn123/azure-vm">(example guide)</a></h2>
-
 <h2>Create a Resource Group</h2>
 
 - Head over to the Azure Portal and sign in (create an account and start a subscription if needed).
 - Now head over to the Resource Group section (in the search bar type "Resource Group") than click "Create".
 - Resource Group name: "Active-Directory-RG"
 - Click Review + create -> Create
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+
+<h2>Create 2 Microsoft Virtual Machine's <a href="https://github.com/darwyn123/azure-vm">(example guide)</a></h2>
+
+- Azure Virtual Machine 1:
+- Resource Group: New one you created ()
+- Virtual Machine Name: "DC-1" running Windows Server 2025 Datacenter Azure Edition - x64 Gen2
+- Virtual Network: New one you created ()
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
