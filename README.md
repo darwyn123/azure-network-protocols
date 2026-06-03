@@ -23,6 +23,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Create 2 Microsoft Virtual Machine's <a href="https://github.com/darwyn123/azure-vm">(example guide)</a></h2>
 
+<h2>Create a Resource Group</h2>
+
 - 
 
 <p>
