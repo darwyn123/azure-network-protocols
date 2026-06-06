@@ -37,12 +37,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Create 2 Microsoft Virtual Machine's <a href="https://github.com/darwyn123/azure-vm">(example guide)</a></h2>
 
 - Azure Virtual Machine 1:
-   - Resource Group: New one you created ()
-   - Virtual Machine Name: "DC-1" running Windows Server 2025 Datacenter Azure Edition - x64 Gen2
-   - Virtual Network: New one you created ()
+   - Resource Group: New one you created (RG-Network-Activities)
+   - Virtual Machine Name: "windows-vm" running Windows 11 Pro, version 25H2 - x64 Gen2
+   - Virtual Network: Create a new Virtual Network called "Lab2-Vnet"
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="646" height="695" alt="windows-vm" src="https://github.com/user-attachments/assets/d558c7fc-f174-4134-979f-5b79c7409faa" />
+</p>
+<p>
+<img <img width="683" height="664" alt="Create VNet Lab2" src="https://github.com/user-attachments/assets/a93745a1-2138-4c32-898c-0b75e5155424" />
+</p>
+<p>
+<img <img width="628" height="664" alt="Lab2-Vnet" src="https://github.com/user-attachments/assets/ba2e2757-de3c-4777-8924-2901b2860044" />
 </p>
 
 - Azure Virtual Machine 2:
