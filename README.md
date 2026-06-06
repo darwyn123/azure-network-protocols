@@ -25,11 +25,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Head over to the Azure Portal and sign in (create an account and start a subscription if needed).
 - Now head over to the Resource Group section (in the search bar type "Resource Group") than click "Create".
-- Resource Group name: "Active-Directory-RG"
+- Resource Group name: "RG-Network-Activities"
 - Click Review + create -> Create
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="646" height="695" alt="Resource G Network" src="https://github.com/user-attachments/assets/3bbc7a22-f47b-4d43-8a8c-1186bac16fb7" />
 </p>
 
 <br />
