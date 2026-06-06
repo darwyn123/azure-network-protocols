@@ -111,7 +111,28 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Expand Ethernet II Src, Internet Protocol Verison 4, Internet Control Message Protocol for more observation
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="887" height="621" alt="Ethernet Start Capturing" src="https://github.com/user-attachments/assets/1d6b5573-c785-4fd7-b740-7a40db78ce07" />
+</p>
+<p>
+<img <img width="887" height="621" alt="icmp search" src="https://github.com/user-attachments/assets/d87a89ee-b1a8-4af2-83fc-b86013c50298" />
+</p>
+<p>
+<img <img width="1106" height="469" alt="Copy Private IP address" src="https://github.com/user-attachments/assets/39f437c6-3cfc-4b1b-a155-f390f936db36" />
+</p>
+<p>
+<img <img width="862" height="562" alt="Ping Private" src="https://github.com/user-attachments/assets/bc35ef90-5040-43cd-90e2-0dae8d2581b9" />
+</p>
+<p>
+<img <img width="1091" height="423" alt="ICMP Traffic" src="https://github.com/user-attachments/assets/8585a6fb-6e72-4bce-9f07-0d4f34ea7a2a" />
+</p>
+<p>
+<img <img width="1270" height="826" alt="Ethernet II" src="https://github.com/user-attachments/assets/da57d6ad-6371-4c64-896c-9c3489b74fdb" />
+</p>
+<p>
+<img <img width="1270" height="826" alt="Internet Protocol" src="https://github.com/user-attachments/assets/de0064cd-e18e-4571-8a09-ae1287b973ec" />
+</p>
+<p>
+<img <img width="1270" height="826" alt="Internet Control" src="https://github.com/user-attachments/assets/b725f1ec-ed75-44ac-8b0b-6711d6f8b798" />
 </p>
 
 <br />
