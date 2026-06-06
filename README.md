@@ -71,7 +71,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - RDP to Windows 11 Pro Virtual Machine
 - Open Web Browser and go to www.wireshark.org -> Click Download Now -> Windows x64 Installer
 - Open file, and double click file to open installer
-- Click Next -> Noted -> Next -> Next -> Next -> Next -> Next -> Install -> I Agree -> Install
+- Click Next -> Noted -> Next -> Next -> Next -> Next -> Next -> Install -> I Agree -> Install -> Next -> Finish -> Next -> Finsh
 
 <p>
 <img <img width="628" height="591" alt="Labuser login" src="https://github.com/user-attachments/assets/eefaa24f-2d71-4338-90d4-c2ae2e52b473" />
@@ -93,6 +93,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
 <img <img width="887" height="621" alt="I Agree INstaller" src="https://github.com/user-attachments/assets/bcba1636-9462-4e6f-9d40-277eba27e9a1" />
+</p>
+<p>
+<img <img width="887" height="621" alt="Finish Installer" src="https://github.com/user-attachments/assets/ca7c19e3-0f2a-457e-b393-94b22d3a6007" />
 </p>
 
 <br />
