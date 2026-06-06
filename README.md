@@ -68,10 +68,28 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Install Wireshark</h2>
 
-- RDP to Windows 10 Virtual Machine
+- RDP to Windows 11 Pro Virtual Machine
+- Open Web Browser and go to www.wireshark.org -> Click Download Now -> Windows x64 Installer
+- Open file, and double click file to open installer
+- Click Next -> Noted -> Next -> Next -> Next -> Next -> Next -> Install
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="628" height="591" alt="Labuser login" src="https://github.com/user-attachments/assets/eefaa24f-2d71-4338-90d4-c2ae2e52b473" />
+</p>
+<p>
+<img <img width="628" height="591" alt="Labuser " src="https://github.com/user-attachments/assets/d7d5387a-14db-4039-a996-450392adbb4e" />
+</p>
+<p>
+<img <img width="1119" height="731" alt="Wireshark Download Now" src="https://github.com/user-attachments/assets/d658c559-35fe-48a5-a80a-c4f31afa99a3" />
+</p>
+<p>
+<img <img width="1057" height="362" alt="Windows x64 Installer" src="https://github.com/user-attachments/assets/2bce45b4-2af1-40e3-b64d-4c8b0bdf5a6e" />
+</p>
+<p>
+<img <img width="887" height="621" alt="Wireshark wizard" src="https://github.com/user-attachments/assets/84ac5193-cc1b-4872-9647-2deb96e246af" />
+</p>
+<p>
+<img <img width="887" height="621" alt="Installer" src="https://github.com/user-attachments/assets/eeb9df78-c5c3-4cb1-9122-090770eee8c5" />
 </p>
 
 <br />
