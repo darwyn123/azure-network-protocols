@@ -52,9 +52,17 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 
 - Azure Virtual Machine 2:
-   - Resource Group: New one you created ()
-   - Virtual Machine Name: "Client-1" running Windows 10 Pro, version 22H2 - x64 Gen2
-   - Virtual Network: New one you created ()
+   - Resource Group: RG-Network-Activities
+   - Virtual Machine Name: "linux-vm" running Ubuntu Server 24.04 LTS - x64 Gen2
+   - Authentication type: Select Password and enter credentials
+   - Virtual Network: Lab2-Vnet
+
+<p>
+<img <img width="628" height="694" alt="linux-vm" src="https://github.com/user-attachments/assets/a827ba51-159e-417c-b6ec-d80e685f736c" />
+</p>
+<p>
+<img <img width="628" height="694" alt="Lab2-Vnet linux" src="https://github.com/user-attachments/assets/4aca47ee-6142-4c43-b9c8-3424b7ee0a3a" />
+</p>
 
 <br />
 
