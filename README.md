@@ -106,7 +106,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Highlight Ethernet and click "Start capturing packets" (Blue Fin)
 - In search bar type "icmp" than enter
 - Go back to Azure Portal, and head over to the virtual machines section and click on linux-vm and copy private IP address
-- Go back to Windows 11 Pro Virtual Machine, open PowerShell and ping linux-vm private IP address (e.g. 10.1.0.5)
+- Go back to Windows 11 Pro Virtual Machine, open PowerShell (make sure directory is in "Users" and not "Windows" - type cd \Users\labuser) and than ping linux-vm private IP address (e.g. 10.1.0.5)
 - Go back to Wireshark and observe ICMP Traffic (e.g Request, Reply: Source, Destination)
 - Expand Ethernet II Src, Internet Protocol Verison 4, Internet Control Message Protocol for more observation
 
@@ -120,7 +120,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1106" height="469" alt="Copy Private IP address" src="https://github.com/user-attachments/assets/39f437c6-3cfc-4b1b-a155-f390f936db36" />
 </p>
 <p>
-<img <img width="862" height="562" alt="Ping Private" src="https://github.com/user-attachments/assets/bc35ef90-5040-43cd-90e2-0dae8d2581b9" />
+<img <img width="1112" height="625" alt="Real ping linux" src="https://github.com/user-attachments/assets/198c5dcd-e45d-4c06-8cb4-fbd2202345e6" />
 </p>
 <p>
 <img <img width="1091" height="423" alt="ICMP Traffic" src="https://github.com/user-attachments/assets/8585a6fb-6e72-4bce-9f07-0d4f34ea7a2a" />
@@ -144,7 +144,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
      - Enter ping "Linux-vm private IP address" (e.g 10.1.0.5) -t
 
 <p>
-<img <img width="1440" height="829" alt="ping -t" src="https://github.com/user-attachments/assets/d07c735b-b41d-4849-bf8f-6903f612cf4c" />
+<img <img width="1112" height="625" alt="ping -t linux real" src="https://github.com/user-attachments/assets/5cc9e81b-6fec-4b9b-9e23-994077589b5b" />
 </p>
 
 - Disable Inbound ICMP Traffic:
@@ -212,7 +212,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - In PowerShell press "Control C" to stop ping command
 
 <p>
-<img <img width="1116" height="625" alt="Command C" src="https://github.com/user-attachments/assets/9231d4ed-c2ca-4358-8a83-5b1f60d7ace5" />
+<img <img width="1112" height="625" alt="Control C end ping real" src="https://github.com/user-attachments/assets/2049fefe-da60-432b-b3f4-ef9517ce3643" />
 </p>
 
 <br />
