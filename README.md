@@ -251,7 +251,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img <img width="1438" height="809" alt="pwd command" src="https://github.com/user-attachments/assets/30482137-ba52-4fdb-812d-12482fe6c4ac" />
 </p>
 
-- Type exit in PowerShell it end connection with Linux
+- Type exit in PowerShell to end connection with Linux
 
 <p>
 <img <img width="1438" height="809" alt="exit ssh" src="https://github.com/user-attachments/assets/692343b1-3a76-4fde-b3a4-0b1acb6f0f68" />
