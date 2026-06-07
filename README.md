@@ -227,7 +227,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 
 - From your Windows 11 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address e.g 10.1.0.5)
-     - Open PowerShell, and type: ssh labuser@<10.1.0.5> (ssh (username)@<(Linux Private IP Address)>)
+     - Open PowerShell, and type: ssh labuser@10.1.0.5 (ssh username@Linux Private IP Address)
      - Than type yes to connect
      - Enter password credentials
 
