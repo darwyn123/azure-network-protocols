@@ -223,7 +223,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Filter for SSH traffic only (in search bar type "SSH" click enter)
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1440" height="625" alt="SSH Filter only" src="https://github.com/user-attachments/assets/1f9289cd-fd92-4cfe-96ea-af285242b06b" />
 </p>
 
 - From your Windows 11 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address e.g 10.1.0.5)
