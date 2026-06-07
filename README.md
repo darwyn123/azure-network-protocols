@@ -106,7 +106,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Highlight Ethernet and click "Start capturing packets" (Blue Fin)
 - In search bar type "icmp" than enter
 - Go back to Azure Portal, and head over to the virtual machines section and click on linux-vm and copy private IP address
-- Go back to Windows 11 Pro Virtual Machine, open PowerShell (make sure directory is in "Users" and not "Windows" - type cd \Users\labuser) and than ping linux-vm private IP address (e.g. 10.1.0.5)
+- Go back to Windows 11 Pro Virtual Machine, open PowerShell and ping linux-vm private IP address (e.g. 10.1.0.5)
 - Go back to Wireshark and observe ICMP Traffic (e.g Request, Reply: Source, Destination)
 - Expand Ethernet II Src, Internet Protocol Verison 4, Internet Control Message Protocol for more observation
 
