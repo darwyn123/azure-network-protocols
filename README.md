@@ -240,8 +240,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 
 - You are now connected to Linux Machine, you can observe traffic in WireShark 
-- In PowerShell type hostname, pwd, uname -a, and observe ssh traffic in WireShark
-     - Expand Ethernet II Src, Internet Protocol Verison 4 Src, Transmission Control Protocol Src port, SSH Protocol for more information          and observation
+- In PowerShell type hostname, pwd, and observe ssh traffic in WireShark
+     - Expand Ethernet II Src, Internet Protocol Verison 4 Src, Transmission Control Protocol Src port, SSH Protocol for more information and observation
 <p>
 <img <img width="1438" height="808" alt="ssh traffic" src="https://github.com/user-attachments/assets/18baf3c0-5aec-4aa5-8df3-3476eb3eabd0" />
 <p>
