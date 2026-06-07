@@ -219,7 +219,39 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Observe SSH Traffic</h2>
 
-- 
+- Go back in WireShark and clear filter (press the "X" button on the right side of search bar)
+- Filter for SSH traffic only (in search bar type "SSH" click enter)
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+- From your Windows 11 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address e.g 10.1.0.5)
+     - Open PowerShell, and type: ssh labuser@<10.1.0.5> (ssh (username)@<(Linux Private IP Address)>)
+     - Than type yes to connect
+     - Enter password credentials
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+- You are now connected to Linux Machine, you can observe traffic in WireShark
+- In PowerShell type hostname, pwd, uname -a, and observe ssh traffic in WireShark
+     - Expand Ethernet II Src, Internet Protocol Verison 4 Src, Transmission Control Protocol Src port, SSH Protocol for more information          and observation
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+- Type exit in PowerShell it end connection with Linux
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
