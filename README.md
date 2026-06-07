@@ -144,7 +144,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
      - Enter ping "Linux-vm private IP address" (e.g 10.1.0.5) -t
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1440" height="829" alt="ping -t" src="https://github.com/user-attachments/assets/d07c735b-b41d-4849-bf8f-6903f612cf4c" />
 </p>
 
 - Disable Inbound ICMP Traffic:
@@ -163,20 +163,26 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
         - Priority: 290
         - Name: DenyAnyCustomAnyInbound
         - Click Add
-     - The Request from the ping command in Windows 11 Virtual Machine is now going to be timed out in PowerShell and WireShark
+          
+<p>
+<img <img width="1440" height="519" alt="linux-vm-nsg" src="https://github.com/user-attachments/assets/739f3d35-96ab-41e7-ae79-c2752da77ece" />
+</p>
+<p>
+<img <img width="1440" height="662" alt="Add Inbound Rule" src="https://github.com/user-attachments/assets/f31e3a33-a1bf-49d3-bb83-fb63734e977c" />
+</p>
+<p>
+<img <img width="1440" height="662" alt="DenyCustomRule" src="https://github.com/user-attachments/assets/a762f061-a364-4c20-88a9-8b7bbfd25cb9" />
+</p>
+
+ - The Request from the ping command in Windows 11 Virtual Machine is now going to be timed out in PowerShell and WireShark
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1440" height="771" alt="Request Timed out" src="https://github.com/user-attachments/assets/92d02d74-caa3-41aa-b00d-02cf7b812453" />
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1440" height="771" alt="WireShark Timed out" src="https://github.com/user-attachments/assets/89b32ff1-f899-44ad-a3c6-64a26f3caa9d" />
 </p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 
 - Re-Enable Inbound ICMP Traffic:
      - Go back to Azure Portal, and head over to the Virtual Machines section and click on linux-vm
@@ -185,28 +191,28 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
      - Expand Settings -> Inbound security rules -> click on the trash button to delete the rule
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1440" height="662" alt="Trash Button" src="https://github.com/user-attachments/assets/6d140720-a7b7-4d36-82f0-c3e3a1b28e63" />
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1440" height="662" alt="Delete Rule" src="https://github.com/user-attachments/assets/a645723e-6a52-4890-aed2-4e3f26ecb441" />
 </p>
 
 - Verify Inbound ICMP Traffic is back Enabled:
      - Go back to Windows 11 Virtual Machine
-     - Go back to PowerShell verify you get a rely from request, no more timed out
-     - Go back to WireShark and observe rely and request ICMP traffic
+     - Go back to PowerShell verify you get a reply from request, no more timed out
+     - Go back to WireShark and observe reply and request ICMP traffic
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1111" height="626" alt="Ping Reply" src="https://github.com/user-attachments/assets/f4373bee-9d5e-44eb-a63c-7d2cd60e486a" />
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1440" height="748" alt="WireShark Reply" src="https://github.com/user-attachments/assets/53452d5c-94b2-4e09-bc4e-0e3b5c9100df" />
 </p>
 
 - In PowerShell press "Control C" to stop ping command
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1116" height="625" alt="Command C" src="https://github.com/user-attachments/assets/9231d4ed-c2ca-4358-8a83-5b1f60d7ace5" />
 </p>
 
 <br />
