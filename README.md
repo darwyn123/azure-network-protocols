@@ -245,19 +245,16 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 <img <img width="1438" height="808" alt="ssh traffic" src="https://github.com/user-attachments/assets/18baf3c0-5aec-4aa5-8df3-3476eb3eabd0" />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1438" height="809" alt="hostname command" src="https://github.com/user-attachments/assets/c142a95d-898c-497c-b98b-605b147e6491" />
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1438" height="809" alt="pwd command" src="https://github.com/user-attachments/assets/30482137-ba52-4fdb-812d-12482fe6c4ac" />
 </p>
 
 - Type exit in PowerShell it end connection with Linux
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1438" height="809" alt="exit ssh" src="https://github.com/user-attachments/assets/692343b1-3a76-4fde-b3a4-0b1acb6f0f68" />
 </p>
 
 <br />
