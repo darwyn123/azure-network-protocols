@@ -143,6 +143,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
      - Go to Windows 11 Virtual Machine and Open PowerShell
      - Enter ping "Linux-vm private IP address" (e.g 10.1.0.5) -t
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 - Disable Inbound ICMP Traffic:
      - Go back to Azure Portal, and head over to the Virtual Machines section and click on linux-vm
      - Expand Networking -> Network settings
@@ -161,19 +165,45 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
         - Click Add
      - The Request from the ping command in Windows 11 Virtual Machine is now going to be timed out in PowerShell and WireShark
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 - Re-Enable Inbound ICMP Traffic:
      - Go back to Azure Portal, and head over to the Virtual Machines section and click on linux-vm
      - Expand Networking -> Network settings
      - Under Network security group, click "linux-vm-nsg"
      - Expand Settings -> Inbound security rules -> click on the trash button to delete the rule
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 - Verify Inbound ICMP Traffic is back Enabled:
      - Go back to Windows 11 Virtual Machine
      - Go back to PowerShell verify you get a rely from request, no more timed out
      - Go back to WireShark and observe rely and request ICMP traffic
 
-- In PowerShell press "Control C" to stop ping command
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
+- In PowerShell press "Control C" to stop ping command
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
