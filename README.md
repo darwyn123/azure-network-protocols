@@ -273,7 +273,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
        
 - Observe the DHCP traffic appearing in WireShark
 
-
 <p>
 <img <img width="1438" height="809" alt="ipconfig: renew" src="https://github.com/user-attachments/assets/ebdaf1b3-69c3-49d3-99c4-dc67329311d1" />
 </p>
@@ -282,10 +281,19 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Observe DNS Traffic</h2>
 
-- 
+- Go back in WireShark and clear filter (press the "X" button on the right side of search bar)
+- Filter for DNS traffic only (in search bar type "DNS" click enter)
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1438" height="809" alt="DNS" src="https://github.com/user-attachments/assets/d675d79f-b992-4db2-a552-2aaf76e102b8" />
+</p>
+
+- From your Windows 11 VM within a command line, use nslookup to see what is google.com IP addresses:
+     - Open PowerShell as admin and run: nslookup google.com
+- Observe the DNS traffic being show in WireShark
+
+<p>
+<img <img width="1438" height="827" alt="DNS Traffic" src="https://github.com/user-attachments/assets/07ddef98-7216-4c5c-a70e-ba75f1d2197d" />
 </p>
 
 <br />
