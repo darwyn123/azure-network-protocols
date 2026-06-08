@@ -300,10 +300,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Observe RDP Traffic</h2>
 
-- 
+- Go back in WireShark and clear filter (press the "X" button on the right side of search bar)
+- Filter for tcp.port == 3389 (RDP) traffic only (in search bar type "tcp.port == 3389" click enter)
+- Observe the immediate non-stop spam of traffic because you are actively RDP into Windows 11 Virtual Machine
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1438" height="827" alt="RDP Traffic" src="https://github.com/user-attachments/assets/32ddcfb4-0bc7-4f26-9280-92bce2062737" />
 </p>
 
 <br />
