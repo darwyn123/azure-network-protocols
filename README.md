@@ -261,10 +261,21 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Observe DHCP Traffic</h2>
 
-- 
+- Go back in WireShark and clear filter (press the "X" button on the right side of search bar)
+- Filter for DHCP traffic only (in search bar type "DHCP" click enter)
+  
+<p>
+<img <img width="1438" height="809" alt="dhcp" src="https://github.com/user-attachments/assets/ffcec3b3-4c36-4cea-aa8f-e75ab689c8d1" />
+</p>
+
+- From your Windows 11 VM, attempt to issue your VM a new IP address from the command line:
+     - Open PowerShell as admin and run: ipconfig /renew
+       
+- Observe the DHCP traffic appearing in WireShark
+
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1438" height="809" alt="ipconfig: renew" src="https://github.com/user-attachments/assets/ebdaf1b3-69c3-49d3-99c4-dc67329311d1" />
 </p>
 
 <br />
