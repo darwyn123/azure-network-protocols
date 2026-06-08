@@ -290,7 +290,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - From your Windows 11 VM within a command line, use nslookup to see what is google.com IP addresses:
      - Open PowerShell as admin and run: nslookup google.com
-- Observe the DNS traffic being show in WireShark
+- Observe the DNS traffic being shown in WireShark
 
 <p>
 <img <img width="1438" height="827" alt="DNS Traffic" src="https://github.com/user-attachments/assets/07ddef98-7216-4c5c-a70e-ba75f1d2197d" />
